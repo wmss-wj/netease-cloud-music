@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      let start = new Date().getTime()
+      window.webStartTime = start
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="<%= BASE_URL %>style.css">
     <title>netease-cloud-music</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but netease-cloud-music doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app" class="del">
+      <img class="slogan" src="<%= BASE_URL %>images/slogan.png" alt=""><br>
+      <img class="logo1" src="<%= BASE_URL %>images/logo1.png" alt="">
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
