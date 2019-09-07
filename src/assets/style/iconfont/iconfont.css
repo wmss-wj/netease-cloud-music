@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'iconfont';
+
+  src: url('iconfont.eot?t=1567849583289'); /* IE9 */
+  src: url('iconfont.eot?t=1567849583289#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQUAAsAAAAACCwAAAPFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEBIMoATYCJAMMCwgABCAFhG0HRRv9BlGUzc0M2UdCuTlZDCOiVjZVwVFEfI+gWiN7dvcBUAHKVwTlXyGqGAGskHSMi46QKR824obe088gZyS67tI6XZZZfKC+yINr8ko8z2Zz+v9FUkVhJOAEBxRdZBvIQHXKe4wNtPtZT6DRKANsW14BERCvwugWiFsUEgHiTUmUmvhQL9SWjC3imRr16Um6DvLU/3z8Zxa8JDWZsdH2jWca5PIzfuV8uypxlKs9GE8FbhIZcyCFOCnV7OEIPXM4NCpCzvrwWkVIY9mrCh9T+bXmHx5JELWM2GYwRbyJn2EzSPzK7LNm3Zy4NvR9wXdd3O3fI6SGu135osAEIZmmieVvW17I23bKdfZIdkxITmh1dUl3TcF9ZTsGB+UeRN5wPTV9EDFisnI/YOe+x/2ohw/D7j6MGnukPv7I+VG09rRmZ2/PjGRxPYP79yNXH/g+EKh/VLDfteNjhe5+meFHykNnenNaU1oPInvlBu/rzFy32HiYOfRMfojtYfTyI+8++b5xhX79/ZgZxR6l3lmpzkmZ6WOFyftEbdh/F1MyNJjCi/GiKf9XUIK0zfP35vTR9+kBBnm+iafm+qbZoZf33rBWvk7Zpdo9kN1V8+F/gpCEG7erjUbzDn2jL0VV0oPXg99LoNjNXMytUMQjnB0Zf+GQvuTrn6JjjTtd2XeyefAj3OmfbYjMzmhMcSw48tUMU3Xj//jVcKJp62BXaStCJlu8K8KH6R1inmIuJpB4vzvVZ4xby0vox3rn0pk2e6Sh53aotVDdwsDik5fjQljbQGoxBjt/3L7wbl1XQEpQSrPjP5QCQrWQj9Mi+PLz9fzoZ37HftdVsWQRh9+8TQX8eD+IoqnKL1A7H/XSnYn8OlbLkqJyDGkuMmZjui573VOVQIQX+WGJ0Ollf10PKFaFep6FkNQZgazeGK6Q5qBGk3moVW8VGs3yntykC4ZDlAbMqAQI7ZYhafUNsnY3cIX0Amr0+gy12oMDGu2ExJxNJoLC744BAg7S4NRcmEJEmYglx/mD+DBAyqQTsCTHJ0cBLINih02NTLJ+b8AE2BgDMrJIZjiOwAiGMmAv2AzQ6SjMwlAqIOJGZBxn2RkbI2UvMiKiDIjfJgxAgAPSwFLlglEQoZgQtzqOP/f+MABJJjoCrCajwhwFwGSg1A4zZcSkBc5byGyVcS2XZMhCYgaHQ8AQGBQDzAtUAN30oGCs8lZUABHOCLmHi8WOMamEtBUazS9mPECUy8GYN0eKHEW5IBBpktkEJimXkpvJdHhMNg0Q6RQiDYIAAAAA') format('woff2'),
+  url('iconfont.woff?t=1567849583289') format('woff'),
+  url('iconfont.ttf?t=1567849583289') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1567849583289#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-style: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before {
+  content: '\e603';
+}
+
+.icon-netease-cloud-music-logo:before {
+  content: '\e501';
+}
