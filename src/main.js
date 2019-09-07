@@ -2,15 +2,16 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './assets/style/iconfont/iconfont.css'
 
 Vue.config.productionTip = false
 
 let end = new Date().getTime()
 let loading = 1500
-if (end - window.myStartTime > loading) {
-  loading = 1
+if (end - window.webStartTime > loading) {
+  loading = 0
 } else {
-  loading = loading - (end - window.myStartTime)
+  loading = loading - (end - window.webStartTime)
 }
 
 setTimeout(() => {
