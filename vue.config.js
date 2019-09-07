@@ -1,5 +1,10 @@
 module.exports = {
   css: {
-    sourceMap: true
+    sourceMap: true,
+    loaderOptions: {
+      sass: {
+        data: '@import "@/assets/style/index.scss";'
+      }
+    }
   }
 }
