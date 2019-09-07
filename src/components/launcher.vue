@@ -26,10 +26,12 @@ export default {
 .launcher {
   position: fixed;
   top: 0;
+  z-index: 9;
 }
+
 .fade-enter-active ,
 .fade-leave-active {
-  transition: opacity .5s ease-in-out;
+  transition: opacity .3s ease-in-out;
 }
 .fade-enter ,
 .fade-leave-to {
